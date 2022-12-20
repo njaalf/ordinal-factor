@@ -16,17 +16,19 @@ The example is described in Paper [\[1\]](#1) as a case where a
 two-factor continuous distribution will always be mis-interpreted as a
 clean one-factor solution after discretization.
 
-In this repository we provide a simulated n=10^4 sample (Xstar.csv) from
-the continuous distribution. Also provided is a code file for the
-simulation implemented in R, and an R script readers may run to affirm
-that indeed, regardless of the number and placements of thresholds, the
-ordinal data will always yield a one-factor solution. The script also
+Also provided is a code file for the
+simulation implemented in R, and and below readers may investigate and R code affirming
+that indeed, 
+ordinal data analysis yields a one-factor solution. The script also
 illustrates that treating ordinal data as continuous is not always a
 good idea, even with seven symmetrically distributed ordinal levels.
 
 The conclusion is that factor retention will always go wrong in this
-scenario. Also, unfortunately there is no way to catch the underlying
+scenario (the reader may change the number and placement of thresholds, and verify that the conclusion remains the same).
+Also, unfortunately,  there is no way to catch the underlying
 non-normality using statistical tests on the ordinal dataset.
+(The user may try the bootTest() in package discnorm, and verify that it does not capture the non-normality in underlying marginals).
+
 
 ## Load Continuous Dataset and Confirm the Two-Factor Model
 
