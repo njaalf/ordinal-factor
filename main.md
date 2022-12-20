@@ -12,7 +12,7 @@ response vector. Here, we provide an example dataset (Xstar.csv) and R
 code that strikingly illustrates the sensitivity of default ordinal SEM
 estimation to underlying non-normality in the latent response variables.
 
-The example is described in Papers [\[1\]](#1) as a case where a
+The example is described in Paper [\[1\]](#1) as a case where a
 two-factor continuous distribution will always be mis-interpreted as a
 clean one-factor solution after discretization.
 
