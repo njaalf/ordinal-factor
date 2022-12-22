@@ -27,7 +27,7 @@ The conclusion is that factor retention will inevitably go wrong in this
 scenario (the reader may change the number and placement of thresholds, and verify that this conclusion unfortunately remains).
 Also, unfortunately,  there is no way to catch the underlying
 non-normality using statistical tests on the ordinal dataset.
-(The reader may apply function bootTest() in package [discnorm](https://cran.r-project.org/web/packages/discnorm/index.html) on X, and verify that it does not capture the non-normality in underlying marginals).
+(The reader may apply function bootTest() in package [discnorm](https://cran.r-project.org/web/packages/discnorm/index.html) on X, and verify that it does not detect the non-normality in underlying marginals).
 
 
 ## Load Continuous Dataset and Confirm the Two-Factor Model
